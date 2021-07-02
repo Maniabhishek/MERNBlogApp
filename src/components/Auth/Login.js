@@ -82,7 +82,7 @@ function Login() {
             { isSignup ? 'Sign Up' : 'Sign In' }
           </Button>
           <GoogleLogin
-            clientId="836384644646-ndbf5pd0igj8riin6djinkblbn2t0kib.apps.googleusercontent.com"
+            clientId=process.env.REACT_CLIENTID
             
             render={(renderProps) => (
               <Button 
